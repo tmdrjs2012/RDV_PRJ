@@ -1,0 +1,22 @@
+
+{
+  "Application": {
+    "Name": "STM32F7508-DK",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../STM32F7508-DK.ioc --platform=m7",
+    "Family" : "STM32F7",
+    "SubFamily" : "STM32F7x0 Value line"
+  },
+  "Version": "4.17.0"
+}

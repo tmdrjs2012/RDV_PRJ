@@ -1,0 +1,2 @@
+Table_NanumBarunGothic_13_4bpp.cpp:156:198:void __tcf_0()	0	static
+Table_NanumBarunGothic_13_4bpp.cpp:154:26:touchgfx::GeneratedFont& getFont_NanumBarunGothic_13_4bpp()	64	static
